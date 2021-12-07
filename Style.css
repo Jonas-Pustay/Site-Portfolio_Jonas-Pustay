@@ -1,0 +1,62 @@
+﻿body 
+{
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/159393/gamepad-video-game-controller-game-controller-controller-159393.jpeg?cs=srgb&dl=pexels-pixabay-159393.jpg&fm=jpg');
+    background-repeat: no-repeat;
+}
+
+header 
+{
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+} 
+
+#Colonne:hover
+{
+    border: 2px solid white;
+}
+
+section
+{
+    background: #000000bf;
+    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+}
+
+canvas 
+{
+    width: 99.25%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+.Game
+{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+h1
+{
+    color: white;
+}
+
+.row 
+{
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 1em;
+    color: azure;
+    width: 30%;
+}
